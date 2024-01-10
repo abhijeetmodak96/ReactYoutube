@@ -10,6 +10,9 @@ const list = [
   "songs",
   "cooking",
   "sports",
+  "astrology",
+  "History",
+  "stock markets",
 ];
 
 const ButtonList = () => {
