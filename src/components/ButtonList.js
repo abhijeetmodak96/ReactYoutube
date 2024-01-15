@@ -12,13 +12,19 @@ const list = [
   "sports",
   "astrology",
   "History",
-  "stock markets",
+  "stocks",
+  "History",
 ];
 
 const ButtonList = () => {
   return (
-    <div className="flex">
-      <Button name={list} />
+    // <div className="flex">
+    //   <Button name={list} />
+    // </div>
+    <div className="rounded-lg flex border bg-slate-100 overflow-x-scroll ">
+      {list.map((listItem, index) => (
+        <Button key={index} name={listItem} />
+      ))}
     </div>
   );
 };

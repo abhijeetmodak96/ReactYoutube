@@ -10,3 +10,5 @@ export const YOUTUBE_SEARCH_SUGGESTIONS_API =
 export const YOYTUBE_SEARCH_API =
   "https://youtube.googleapis.com/youtube/v3/search?part=snippet&location=21.5922529%2C-158.1147114&locationRadius=10mi&maxResults=10&q=surfing&type=video&key=" +
   GOOGLE_API_KEY;
+
+export const LIVE_CHAT_COUNT = 25;
